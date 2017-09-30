@@ -12,7 +12,7 @@ extension String {
     func replace(_ string:String, replacement:String) -> String {
         return self.replacingOccurrences(of: string,
             with: replacement,
-            options: NSString.CompareOptions.literal,
+            options: .literal,
             range: nil)
     }
     
